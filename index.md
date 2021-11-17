@@ -1,2 +1,2 @@
 # Cranksgiving
-## [Manifest](newhaven.bike/manifest.html)
+## [Manifest](https://newhaven.bike/manifest.html)
