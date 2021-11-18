@@ -90,3 +90,5 @@ Thank you to everyone at DESK CT!
 DESK's mission:
 
 "To serve people experiencing homelessness or living in poverty by providing food assistance and services that promote health, community, and equity."
+
+<p class="mySpecialClass">My **second** paragraph</p>
