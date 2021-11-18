@@ -43,11 +43,6 @@ Please be aware that this is not final, but should give you an idea of the kind 
     <label for="music">100% fruit juice</label>
   </div>
 
-- [ ]  
-- [ ]  **Applesauce**, unsweetened
-- [ ]  **Dried fruit** (such as raisins & prunes
-- [ ]  **100% fruit juice**
-
 ### Vegetables:
 
 - [ ]  **Canned vegetables**, no salt added (sodium 140mg or less)
