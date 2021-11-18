@@ -10,6 +10,12 @@ Bike out to Edge of the Woods and Stop and Shop to pick up non-perishables that 
 
 Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit www.cranksgiving.org for more locations. See less
 
+## The ride
+
+This is the current planned route: https://ridewithgps.com/routes/37920358
+
+Please be aware that this is not final, but should give you an idea of the kind of ride to expect. The final route will be published by Saturday, 11/20/21.
+
 ## Healthy Foods Donation List
 
 ### Fruits:
