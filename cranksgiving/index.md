@@ -12,48 +12,48 @@ This is the current planned route: <https://ridewithgps.com/routes/37920358>
 Please be aware that this is not final, but should give you an idea of the kind of ride to expect. The final route will be published by Saturday, 11/20/21.
 ## Healthy Foods Donation List
 ### Fruits:
-- [ ]  **Canned fruit** (in 100% fruit juice or water)
-- [ ]  **Applesauce**, unsweetened
-- [ ]  **Dried fruit** (such as raisins & prunes
-- [ ]  **100% fruit juice**
+<input type="checkbox">  **Canned fruit** (in 100% fruit juice or water)
+<input type="checkbox">  **Applesauce**, unsweetened
+<input type="checkbox">  **Dried fruit** (such as raisins & prunes
+<input type="checkbox">  **100% fruit juice**
 ### Vegetables:
-- [ ]  **Canned vegetables**, no salt added (sodium 140mg or less)
-- [ ]  **Canned tomatoes**, no salt added (Sodium 140mg or less)
-- [ ]  **Tomato sauce**, no salt added (Sodium 480mg or less, Sugar 8g or less)
-- [ ]  **Spaghetti sauce**, low sodium (Sodium 480mg or less, Sugar 8g or less)
-- [ ]  **Salsa** (Sodium 140mg or less)
+<input type="checkbox">  **Canned vegetables**, no salt added (sodium 140mg or less)
+<input type="checkbox">  **Canned tomatoes**, no salt added (Sodium 140mg or less)
+<input type="checkbox">  **Tomato sauce**, no salt added (Sodium 480mg or less, Sugar 8g or less)
+<input type="checkbox">  **Spaghetti sauce**, low sodium (Sodium 480mg or less, Sugar 8g or less)
+<input type="checkbox">  **Salsa** (Sodium 140mg or less)
 ### Combination Foods:
-- [ ]  **Soups, stews or chili** (Sodium 480mg or less)
-- [ ]  **Granola bars, chips**
-- [ ]  **Broth or stock**, unsalted, (Sodium 140mg or less)
+<input type="checkbox">  **Soups, stews or chili** (Sodium 480mg or less)
+<input type="checkbox">  **Granola bars, chips**
+<input type="checkbox">  **Broth or stock**, unsalted, (Sodium 140mg or less)
 ### Beverages:
-- [ ]  **Tea bags**
-- [ ]  **Coffee**
-- [ ]  **Water, seltzer**, unsweetened
+<input type="checkbox">  **Tea bags**
+<input type="checkbox">  **Coffee**
+<input type="checkbox">  **Water, seltzer**, unsweetened
 ### Miscellaneous:
-- [ ]  **Cat and cog food** (canned, small bags of dry, or large bags with 1-gallon zip-lock bags)
+<input type="checkbox">  **Cat and cog food** (canned, small bags of dry, or large bags with 1-gallon zip-lock bags)
 ### Whole Grains:
-- [ ]  **Brown rice, wild rice or quinoa**
-- [ ]  **Whole grain or whole wheat pasta**
-- [ ]  **Oatmeal or whole grain cream of wheat**, unflavored
-- [ ]  **Whole grain crackers** (Fiber 3g or more)
-- [ ]  **Whole wheat or corn tortillas**, non-refrigerated (Fiber 3g or more)
-- [ ]  **Whole grain cereal** (Sugar 6g or less, Fiber 3g or more)
-- [ ]  **Popcorn**, kernels or microwave 94% fat free
+<input type="checkbox">  **Brown rice, wild rice or quinoa**
+<input type="checkbox">  **Whole grain or whole wheat pasta**
+<input type="checkbox">  **Oatmeal or whole grain cream of wheat**, unflavored
+<input type="checkbox">  **Whole grain crackers** (Fiber 3g or more)
+<input type="checkbox">  **Whole wheat or corn tortillas**, non-refrigerated (Fiber 3g or more)
+<input type="checkbox">  **Whole grain cereal** (Sugar 6g or less, Fiber 3g or more)
+<input type="checkbox">  **Popcorn**, kernels or microwave 94% fat free
 ### Proteins:
-- [ ]  **Canned beans, peas, lentils**, no salt added or low sodium (Sodium 140mg or less)
-- [ ]  **Shelf stable boxed tofu**
-- [ ]  **Dried beans, peas, lentils**
-- [ ]  **Canned tuna, salmon, chicken or sardines** in water, low sodium
-- [ ]  **Peanut butter**
-- [ ]  **Nuts or seeds**, unsalted
+<input type="checkbox">  **Canned beans, peas, lentils**, no salt added or low sodium (Sodium 140mg or less)
+<input type="checkbox">  **Shelf stable boxed tofu**
+<input type="checkbox">  **Dried beans, peas, lentils**
+<input type="checkbox">  **Canned tuna, salmon, chicken or sardines** in water, low sodium
+<input type="checkbox">  **Peanut butter**
+<input type="checkbox">  **Nuts or seeds**, unsalted
 ### Condiments & Oils:
-- [ ]  **Lite salad dressings**
-- [ ]  **Vinegar**
-- [ ]  **Vegetable, olive, or canola oil**
-- [ ]  **Dried herbs and spices** (oregano, basil, cumin, chili powder, paprika)
-- [ ]  **100% fruit spread**
-- [ ]  **Garlic** (granulated, powdered, or mixed)
+<input type="checkbox">  **Lite salad dressings**
+<input type="checkbox">  **Vinegar**
+<input type="checkbox">  **Vegetable, olive, or canola oil**
+<input type="checkbox">  **Dried herbs and spices** (oregano, basil, cumin, chili powder, paprika)
+<input type="checkbox">  **100% fruit spread**
+<input type="checkbox">  **Garlic** (granulated, powdered, or mixed)
 
 ## A Word
 
