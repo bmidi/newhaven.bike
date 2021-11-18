@@ -4,6 +4,7 @@
 
 ## What is this?
 
+
 Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
 
 This event is FREE, but you'll need $15-$20 to purchase food. Donations will support Downtown Evening Soup Kitchen.
@@ -13,6 +14,7 @@ Bike out to Edge of the Woods and Stop and Shop to pick up non-perishables that 
 Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit <www.cranksgiving.org> for more locations. See less
 
 ## The ride
+
 
 This is the current planned route: <https://ridewithgps.com/routes/37920358>
 
