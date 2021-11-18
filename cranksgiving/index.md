@@ -26,7 +26,7 @@ Please be aware that this is not final, but should give you an idea of the kind 
 
 ### Fruits:
 
-- [ ]  **Canned fruit** in 100% fruit juice or water
+- [ ]  **Canned fruit** (in 100% fruit juice or water)
 - [ ]  **Applesauce**, unsweetened
 - [ ]  **Dried fruit** (such as raisins & prunes
 - [ ]  **100% fruit juice**
@@ -82,3 +82,11 @@ Please be aware that this is not final, but should give you an idea of the kind 
 - [ ]  **Dried herbs and spices** (oregano, basil, cumin, chili powder, paprika)
 - [ ]  **100% fruit spread**
 - [ ]  **Garlic** (granulated, powdered, or mixed)
+
+## A Word
+
+Thank you to everyone at DESK CT!
+
+DESK's mission:
+
+"To serve people experiencing homelessness or living in poverty by providing food assistance and services that promote health, community, and equity."
