@@ -28,11 +28,11 @@ Please be aware that this is not final, but should give you an idea of the kind 
 
   <div>
     <input type="checkbox" id="Canned fruit" name="interest" value="coding">
-    <label for="coding">**Canned fruit** (in 100% fruit juice or water)</label>
+    <label for="coding">Canned fruit (in 100% fruit juice or water)</label>
   </div>
   <div>
     <input type="checkbox" id="Applesauce" name="interest" value="music">
-    <label for="music">**Applesauce**, unsweetened</label>
+    <label for="music">Applesauce, unsweetened</label>
   </div>
     <div>
     <input type="checkbox" id="Dried fruit" name="interest" value="coding">
