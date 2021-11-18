@@ -1,21 +1,27 @@
 # Cranksgiving
 
+## November 21, 11A-2P
+
+### Rain date: November 28, 11A-2P
+
 ![header](header.jpg)
 
 ## What is this?
 
 ### 
+
 Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
 
 This event is FREE, but you'll need $15-$20 to purchase food. Donations will support Downtown Evening Soup Kitchen.
 
 Bike out to Edge of the Woods and Stop and Shop to pick up non-perishables that will support DESK <https://www.deskct.org/>
 
-Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit <www.cranksgiving.org> for more locations. See less
+Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit <www.cranksgiving.org> for more locations.
 
 ## The ride
 
 ### 
+
 This is the current planned route: <https://ridewithgps.com/routes/37920358>
 
 Please be aware that this is not final, but should give you an idea of the kind of ride to expect. The final route will be published by Saturday, 11/20/21.
