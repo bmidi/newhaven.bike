@@ -36,7 +36,7 @@ Please be aware that this is not final, but should give you an idea of the kind 
   </div>
     <div>
     <input type="checkbox" id="Dried fruit" name="interest" value="coding">
-    <label for="coding">Dried fruit (such as raisins & prunes)</label>
+  <label for="coding"><p>Dried fruit (such as raisins & prunes)</p></label>
   </div>
   <div>
     <input type="checkbox" id="fruit juice" name="interest" value="music">
