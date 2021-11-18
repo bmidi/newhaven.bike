@@ -26,7 +26,24 @@ Please be aware that this is not final, but should give you an idea of the kind 
 
 ### Fruits:
 
-- [ ]  **Canned fruit** (in 100% fruit juice or water)
+  <div>
+    <input type="checkbox" id="Canned fruit" name="interest" value="coding">
+    <label for="coding">**Canned fruit** (in 100% fruit juice or water)</label>
+  </div>
+  <div>
+    <input type="checkbox" id="Applesauce" name="interest" value="music">
+    <label for="music">**Applesauce**, unsweetened</label>
+  </div>
+    <div>
+    <input type="checkbox" id="Dried fruit" name="interest" value="coding">
+    <label for="coding">Dried fruit (such as raisins & prunes)</label>
+  </div>
+  <div>
+    <input type="checkbox" id="fruit juice" name="interest" value="music">
+    <label for="music">100% fruit juice</label>
+  </div>
+
+- [ ]  
 - [ ]  **Applesauce**, unsweetened
 - [ ]  **Dried fruit** (such as raisins & prunes
 - [ ]  **100% fruit juice**
