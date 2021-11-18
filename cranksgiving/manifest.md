@@ -1,13 +1,15 @@
-# Healthy Foods Donation List
+# Cranksgiving
 
-## Fruits:
+## Healthy Foods Donation List
+
+### Fruits:
 
 - [ ]  **Canned fruit** in 100% fruit juice or water
 - [ ]  **Applesauce**, unsweetened
 - [ ]  **Dried fruit** (such as raisins & prunes
 - [ ]  **100% fruit juice**
 
-## Vegetables:
+### Vegetables:
 
 - [ ]  **Canned vegetables**, no salt added (sodium 140mg or less)
 - [ ]  **Canned tomatoes**, no salt added (Sodium 140mg or less)
@@ -15,23 +17,23 @@
 - [ ]  **Spaghetti sauce**, low sodium (Sodium 480mg or less, Sugar 8g or less)
 - [ ]  **Salsa** (Sodium 140mg or less)
 
-## Combination Foods:
+### Combination Foods:
 
 - [ ]  **Soups, stews or chili** (Sodium 480mg or less)
 - [ ]  **Granola bars, chips**
 - [ ]  **Broth or stock**, unsalted, (Sodium 140mg or less)
 
-## Beverages:
+### Beverages:
 
 - [ ]  **Tea bags**
 - [ ]  **Coffee**
 - [ ]  **Water, seltzer**, unsweetened
 
-## Miscellaneous:
+### Miscellaneous:
 
 - [ ]  **Cat and cog food** (canned, small bags of dry, or large bags with 1-gallon zip-lock bags)
 
-## Whole Grains:
+### Whole Grains:
 
 - [ ]  **Brown rice, wild rice or quinoa**
 - [ ]  **Whole grain or whole wheat pasta**
@@ -41,7 +43,7 @@
 - [ ]  **Whole grain cereal** (Sugar 6g or less, Fiber 3g or more)
 - [ ]  **Popcorn**, kernels or microwave 94% fat free
 
-## Proteins:
+### Proteins:
 
 - [ ]  **Canned beans, peas, lentils**, no salt added or low sodium (Sodium 140mg or less)
 - [ ]  **Shelf stable boxed tofu**
@@ -50,7 +52,7 @@
 - [ ]  **Peanut butter**
 - [ ]  **Nuts or seeds**, unsalted
 
-## Condiments & Oils:
+### Condiments & Oils:
 
 - [ ]  **Lite salad dressings**
 - [ ]  **Vinegar**
