@@ -91,4 +91,7 @@ DESK's mission:
 
 "To serve people experiencing homelessness or living in poverty by providing food assistance and services that promote health, community, and equity."
 
-<p class="mySpecialClass">My **second** paragraph</p>
+<label class="container">One
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
