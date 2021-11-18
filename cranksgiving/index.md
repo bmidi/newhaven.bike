@@ -91,7 +91,8 @@ DESK's mission:
 
 "To serve people experiencing homelessness or living in poverty by providing food assistance and services that promote health, community, and equity."
 
-<label class="container">One
-  <input type="checkbox" checked="checked">
-  <span class="checkmark"></span>
-</label>
+<div>
+  <input type="checkbox" id="scales" name="scales"
+         checked>
+  <label for="scales">Scales</label>
+</div>
