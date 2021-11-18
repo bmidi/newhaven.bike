@@ -26,6 +26,8 @@ Please be aware that this is not final, but should give you an idea of the kind 
 
 ### Fruits:
 
+<input type="checkbox"><p>hello</p>
+
   <div>
     <input type="checkbox" id="Canned fruit" name="interest" value="coding">
     <label for="coding">Canned fruit (in 100% fruit juice or water)</label>
