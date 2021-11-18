@@ -1,5 +1,3 @@
-# Cranksgiving Manifest
-
 # Healthy Foods Donation List
 
 ## Fruits:
