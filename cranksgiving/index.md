@@ -34,9 +34,9 @@ Please be aware that this is not final, but should give you an idea of the kind 
     <input type="checkbox" id="Applesauce" name="interest" value="music">
     <label for="music">Applesauce, unsweetened</label>
   </div>
-    <div>
+  <div>
     <input type="checkbox" id="Dried fruit" name="interest" value="coding">
-  <label for="coding"><p>Dried fruit (such as raisins & prunes)</p></label>
+  <label for="coding">Dried fruit (such as raisins & prunes)</label>
   </div>
   <div>
     <input type="checkbox" id="fruit juice" name="interest" value="music">
