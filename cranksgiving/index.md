@@ -8,8 +8,51 @@ This event is FREE, but you'll need $15-$20 to purchase food. Donations will sup
 Bike out to Edge of the Woods and Stop and Shop to pick up non-perishables that will support DESK <https://www.deskct.org/>
 Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit <www.cranksgiving.org> for more locations.
 ## The ride
-This is the current planned route: <https://ridewithgps.com/routes/37920358>
-Please be aware that this is not final, but should give you an idea of the kind of ride to expect. The final route will be published by Saturday, 11/20/21.
+
+The easiest way to stick to the planned route is to group up and follow someone with a bike computer.
+
+The route (download or navigate on phone, preferred method): <https://ridewithgps.com/routes/37920358>
+
+Cue sheet:
+
+Turn left onto College Street 0.1 mi
+
+Turn right onto Chapel Street 0.1 mi
+
+Turn right onto Orchard Street 0.8 mi
+
+Turn right onto Elm Street 1.1 mi
+
+Turn right onto Norton Street 1.5 mi
+
+Turn right onto Whalley Avenue 1.6 mi
+
+Turn left onto Winthrop Avenue 1.7 mi
+
+Turn right onto Goffe Terrace 2.0 mi
+
+Continue onto Goffe Street 2.1 mi
+
+Turn sharp left onto Sherman Avenue 2.1 mi
+
+Turn right onto Henry Street 2.2 mi
+
+Turn right 2.5 mi
+
+Turn sharp right onto Henry Street 2.7 mi
+
+Continue onto Munson Street 2.9 mi
+
+Turn right onto Farmington Canal Heritage Trail 2.9 mi
+
+Continue onto Farmington Canal Heritage Trail 3.5 mi
+
+Turn left 3.6 mi
+
+Turn right onto Temple Street 3.7 mi
+
+Turn left 4.0 mi
+
 ## Healthy Foods Donation List
 ### Fruits:
 <input type="checkbox">  **Canned fruit** (in 100% fruit juice or water)<br>
