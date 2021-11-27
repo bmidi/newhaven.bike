@@ -7,7 +7,7 @@ Paged preserved:
 
 ## November 21, 11A-2P
 ### Rain date: November 28, 11A-2P
-![header](header.jpg)
+![header](cranksgiving_header.jpg)
 ## What is this?
 Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
 This event is FREE, but you'll need $15-$20 to purchase food. Donations will support Downtown Evening Soup Kitchen.
