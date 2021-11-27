@@ -1,4 +1,7 @@
 # Cranksgiving
+
+Thank you to everyone who came out to this event! There was an amazing turnout
+
 ## November 21, 11A-2P
 ### Rain date: November 28, 11A-2P
 ![header](header.jpg)
