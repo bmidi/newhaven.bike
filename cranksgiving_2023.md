@@ -1,12 +1,17 @@
 # Cranksgiving 2023
 
 Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
-This event is FREE, but you'll need $15-$20 to purchase food. Donations will support Downtown Evening Soup Kitchen.
+
+This event is FREE, but you'll need $30-$40 to purchase food. Donations will support Downtown Evening Soup Kitchen.
+
 Bike out to nearby grocery stores to pick up non-perishables that will support DESK <https://www.deskct.org/>.
+
 Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit <www.cranksgiving.org> for more locations.
 
 ## November 12, 11AM - 1PM
+
 ![header](cranksgiving_header.jpg)
+
 ## The ride
 
 The easiest way to stick to the planned route is to group up and follow someone with a bike computer.
@@ -60,6 +65,8 @@ Route will be provided publicly the night before the event.
 
 ## A Word
 
-Thank you to everyone at DESK CT.
 Thank you to all the volunteers that came out in 2021. 
+
+Thank you to the volunteers and organizers at DESK CT.
+
 We would also like to remember, in loving memory, a volunteer and member of the volunteering community, Martin, and keep his family in our hearts this year.
