@@ -1,3 +1,5 @@
-# The Bradley Street Bicycle Co-op is a community bike shop working towards an equitable New Haven by getting people on bikes. 
+# Bradley Street Bicycle Co-op
 
-[https://bsbc.co](BSBC)
+## The Bradley Street Bicycle Co-op is a community bike shop working towards an equitable New Haven by getting people on bikes. 
+
+[https://bsbc.co](https://bsbc.co)
