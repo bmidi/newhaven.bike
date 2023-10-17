@@ -1,6 +1,8 @@
 ## Welcome to New Haven Bike Related Stuff Repository
 
-Please checkout the 'test' branch and submit your pull request to add high quality information to this website and it will be reviewed.
+Please checkout a new branch and submit your pull request to submit high quality information for review. You can also add/edit markdown files directly in GitHub, it will ask you to publish to a new branch with your username. Hit accept and I will merge it.
+
+If you need help doing this, you can email help@newhaven.bike
 
 Thank you.
 
