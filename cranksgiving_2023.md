@@ -10,7 +10,7 @@ This event is FREE, but you'll need $30-$40 to purchase food. Donations will sup
 
 Bike out to nearby grocery stores to pick up non-perishables that will support DESK [<https://www.deskct.org/>](https://www.deskct.org).
 
-Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit [<www.cranksgiving.org>](https://cranksgiving.org/) for more locations.
+Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit [https://cranksgiving.org/](https://cranksgiving.org/) for more locations.
 
 ## The ride
 
