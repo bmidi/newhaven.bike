@@ -1,8 +1,8 @@
-# Cranksgiving 2023
+# Cranksgiving 2023 will be taking place **November 12**.
 
-## Cranksgiving 2023 will be taking place **November 12** from **11 AM** to **2 PM**. Please plan to arrive on-time.
+Please plan to arrive at **11 AM**.
 
-The group will **leave from the New Haven Green (flagpole) at 11:15 AM** and people should try to **be back at DESK by 1:30 PM**. There will be volunteers around until 2 PM.
+The group will **leave from the New Haven Green (flagpole) at 11:15 AM** and people should try to **be back at DESK by 1:30 PM**. There will be volunteers at DESK around until 2 PM.
 
 Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
 
