@@ -1,4 +1,6 @@
-# Cranksgiving 2023 will be taking place **November 12**.
+# Cranksgiving 2023
+
+Cranksgiving New Haven will be taking place **November 12**.
 
 Please plan to arrive at **11 AM**.
 
