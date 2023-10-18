@@ -1,6 +1,6 @@
 # Cranksgiving 2023
 
-Cranksgiving is a food drive on two wheels. Part bike ride, part scavenger hunt. It's for charity. All you need is a bicycle, a lock and a bag!
+Cranksgiving is a food drive for charity on two wheels. Part bike ride, part scavenger hunt. All you need is a bicycle, a lock and a bag!
 
 Cranksgiving New Haven will be taking place **November 12**.
 
