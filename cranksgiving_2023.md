@@ -1,5 +1,9 @@
 # Cranksgiving 2023
 
+## Cranksgiving 2023 will be taking place **November 12** from **11 AM** to **2 PM**. Please plan to arrive on-time.
+
+The group will **leave from the New Haven Green (flagpole) at 11:15 AM** and people should try to **be back at DESK by 1:30 PM**. There will be volunteers around until 2 PM.
+
 Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
 
 This event is FREE, but you'll need $30-$40 to purchase food. Donations will support Downtown Evening Soup Kitchen.
@@ -7,10 +11,6 @@ This event is FREE, but you'll need $30-$40 to purchase food. Donations will sup
 Bike out to nearby grocery stores to pick up non-perishables that will support DESK <https://www.deskct.org/>.
 
 Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit <www.cranksgiving.org> for more locations.
-
-## November 12, 11AM - 1PM
-
-![header](cranksgiving_header.jpg)
 
 ## The ride
 
@@ -70,3 +70,5 @@ Thank you to all the volunteers that came out in 2021.
 Thank you to the volunteers and organizers at DESK CT.
 
 We would also like to remember, in loving memory, a volunteer and member of the volunteering community, Martin, and keep his family in our hearts this year.
+
+![header](cranksgiving_header.jpg)
