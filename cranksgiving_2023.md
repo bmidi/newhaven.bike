@@ -16,6 +16,8 @@ Cranksgiving is a national event that occurs in over 100 cities across the Unite
 
 The easiest way to stick to the planned route is to group up and follow someone with a bike computer.
 
+A link will be provided which can be opened on mobile devices and a cue sheet will also be available.
+
 Route will be provided publicly the night before the event.
 
 ## Healthy Foods Donation List
@@ -63,7 +65,7 @@ Route will be provided publicly the night before the event.
 <input type="checkbox">  **100% fruit spread**<br>
 <input type="checkbox">  **Garlic** (granulated, powdered, or mixed)<br>
 
-## A Word
+## Acknowledgements
 
 Thank you to all the volunteers that came out in 2021. 
 
