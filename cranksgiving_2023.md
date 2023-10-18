@@ -1,12 +1,14 @@
 # Cranksgiving 2023
 
+Cranksgiving is a food drive on two wheels. Part bike ride, part scavenger hunt. It's for charity. All you need is a bicycle, a lock and a bag!
+
 Cranksgiving New Haven will be taking place **November 12**.
 
 Please plan to arrive at **11 AM**.
 
 The group will **leave from the New Haven Green (flagpole) at 11:15 AM** and people should try to **be back at DESK by 1:30 PM**. There will be volunteers at DESK around until 2 PM.
 
-Cranksgiving is a food drive on two wheels. Part bike ride, part madcap scavenger hunt. All you need is a bicycle, a lock and a bag!
+Please join the [Signal group](https://signal.group/#CjQKIKYjbrY4Q5FfuQNZTDJzXlAFjsC0PNxeyzCZ6i70SMN4EhC8KlrR5ipepOG15loXPxLY) so you can get push notifications about the event, any important information will also be published to the website.
 
 This event is FREE, but you'll need $30-$40 to purchase food. Donations will support Downtown Evening Soup Kitchen.
 
