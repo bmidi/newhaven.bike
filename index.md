@@ -8,4 +8,4 @@ Using Markdown helps keeps this site cohesive in styling and mobile-responsivene
 
 Thanks so much for visiting this site!
 
-- Ben Midyette
+\- Ben Midyette
