@@ -10,6 +10,8 @@ The group will **leave from the New Haven Green (flagpole) at 11:15 AM** and peo
 
 Please join the [Signal group](https://signal.group/#CjQKIKYjbrY4Q5FfuQNZTDJzXlAFjsC0PNxeyzCZ6i70SMN4EhC8KlrR5ipepOG15loXPxLY) so you can get push notifications about the event, any important information will also be published to the website.
 
+Joining the signal group will also give us a good idea for the turnout and it will help us out a lot with organizing.
+
 This event is FREE, but you'll need $30-$40 to purchase food. Donations will support Downtown Evening Soup Kitchen.
 
 Bike out to nearby grocery stores to pick up non-perishables that will support DESK [<https://www.deskct.org/>](https://www.deskct.org).
