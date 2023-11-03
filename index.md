@@ -7,5 +7,3 @@ The main focus for this site is non-commercial happenings, groups, information, 
 Using Markdown helps keeps this site cohesive in styling and mobile-responsiveness, but we rely on contributors for quality content. If you're looking for a way to get easy experience with GitHub and contributing to open source projects, this is a perfect way to do it. Furthermore, I do not claim 'ownership' over this site in an intellectual property way, and contributions are strictly your own. Contributions are monitored and are subject to moderation through the form of pull requests and explicit and helpful discussion are an expectation that contributors can rely on.
 
 Thanks so much for visiting this site!
-
-\- Ben Midyette
