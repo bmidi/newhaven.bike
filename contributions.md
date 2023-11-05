@@ -1,4 +1,4 @@
-# Contributing
+# Contributions
 
 ## Contributing to an existing page
 
