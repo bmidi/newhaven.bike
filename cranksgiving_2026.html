@@ -1,0 +1,267 @@
+---
+layout: default
+title: Cranksgiving 2026
+---
+
+<style>
+  .team-selector {
+    margin: 2rem 0 1.5rem;
+  }
+  .team-selector p {
+    margin-bottom: 0.75rem;
+  }
+  .team-selector-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .team-selector-buttons input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .team-option {
+    flex: 1 1 calc(50% - 0.75rem);
+    min-width: 8rem;
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+  .team-option:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  .team-selector-buttons input[type="radio"]:focus + .team-option {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+  .team-selector-buttons input[type="radio"]:checked + .team-option {
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+  }
+  .team-option[data-team="red"] {
+    background: #fde8e8;
+    color: #9b1c1c;
+  }
+  .team-option[data-team="blue"] {
+    background: #e1effe;
+    color: #1c3d5a;
+  }
+  .team-option[data-team="green"] {
+    background: #def7ec;
+    color: #0f5132;
+  }
+  .team-option[data-team="gold"] {
+    background: #fdf6e3;
+    color: #92400e;
+  }
+  .team-checklist {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    border: 2px solid transparent;
+    border-radius: 1.25rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .team-checklist:not([data-active="true"]) {
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+  .team-checklist[data-team-section="red"][data-active="true"] {
+    border-color: #f8b4b4;
+    box-shadow: 0 8px 24px rgba(248, 180, 180, 0.3);
+  }
+  .team-checklist[data-team-section="blue"][data-active="true"] {
+    border-color: #9ec5ff;
+    box-shadow: 0 8px 24px rgba(158, 197, 255, 0.3);
+  }
+  .team-checklist[data-team-section="green"][data-active="true"] {
+    border-color: #8ed1b3;
+    box-shadow: 0 8px 24px rgba(142, 209, 179, 0.3);
+  }
+  .team-checklist[data-team-section="gold"][data-active="true"] {
+    border-color: #f3c78b;
+    box-shadow: 0 8px 24px rgba(243, 199, 139, 0.3);
+  }
+  .team-checklist h3 {
+    margin-top: 0;
+  }
+  .team-checklist ul {
+    padding-left: 1.2rem;
+  }
+  .team-checklist button {
+    margin-bottom: 1rem;
+  }
+  @media (min-width: 640px) {
+    .team-option {
+      flex: 0 0 auto;
+    }
+  }
+</style>
+
+<h1>Cranksgiving 2026</h1>
+<strong>Saturday, November 23, 2026</strong>
+<p>Cranksgiving is a charity bike ride and food drive. Bring a bicycle, a lock, and a bag.</p>
+
+<p>
+  Please arrive at the <strong>New Haven Green flagpole</strong> by <strong>XX:XX AM</strong>. We will leave together at
+  <strong>XX:XX AM</strong> and plan to return to <strong>DESK</strong> by <strong>X:XX PM</strong>, where volunteers
+  will be on hand until X:XX PM.
+</p>
+<p>Route details will be updated the night before the event.</p>
+
+<p>
+  The ride is free. Plan on spending <strong>$40-$50</strong> on grocery items that support Downtown Evening Soup
+  Kitchen.
+</p>
+<p>
+  Learn more about DESK at <a href="https://www.deskct.org/">deskct.org</a> and the national Cranksgiving movement at
+  <a href="https://cranksgiving.org/">cranksgiving.org</a>.
+</p>
+
+<h2 id="ride">The ride</h2>
+<p>
+  Route link, cue sheets, and shopping stops will be published the evening before the ride. Each group will have one
+  leader with the route.
+</p>
+
+<h2 id="donations">Food Shopping List</h2>
+<div class="team-selector" role="radiogroup" aria-label="Choose your team checklist">
+  <p>Select your team color to show the matching checklist.</p>
+  <div class="team-selector-buttons">
+    <input type="radio" name="team-selector" id="team-select-red" value="red" aria-controls="team-red" checked />
+    <label class="team-option" for="team-select-red" data-team="red">Red Team</label>
+
+    <input type="radio" name="team-selector" id="team-select-blue" value="blue" aria-controls="team-blue" />
+    <label class="team-option" for="team-select-blue" data-team="blue">Blue Team</label>
+
+    <input type="radio" name="team-selector" id="team-select-green" value="green" aria-controls="team-green" />
+    <label class="team-option" for="team-select-green" data-team="green">Green Team</label>
+
+    <input type="radio" name="team-selector" id="team-select-gold" value="gold" aria-controls="team-gold" />
+    <label class="team-option" for="team-select-gold" data-team="gold">Gold Team</label>
+  </div>
+</div>
+<section class="team-checklist" id="team-red" data-team-section="red" data-active="true">
+  <h3>Red Team &mdash; Produce Patrol</h3>
+  <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+  <h4>Fruits &amp; Vegetables</h4>
+  <ul>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+  </ul>
+</section>
+
+<section class="team-checklist" id="team-blue" data-team-section="blue" data-active="false">
+  <h3>Blue Team &mdash; /h3>
+  <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+  <h4>Ready-to-Serve Staples</h4>
+  <ul>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+  </ul>
+  <h4>Beverages &amp; Extras</h4>
+  <ul>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+  </ul>
+</section>
+
+<section class="team-checklist" id="team-green" data-team-section="green" data-active="false">
+  <h3>Green Team &mdash; Grain Train</h3>
+  <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+  <h4>Whole Grains</h4>
+  <ul>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+  </ul>
+</section>
+
+<section class="team-checklist" id="team-gold" data-team-section="gold" data-active="false">
+  <h3>Gold Team &mdash; Protein &amp; Pantry Crew</h3>
+  <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+  <h4>Proteins</h4>
+  <ul>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+  </ul>
+  <h4>Flavor Boosters</h4>
+  <ul>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+    <li><label><input type="checkbox" /> TBD</label></li>
+  </ul>
+</section>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+<p><img src="cranksgiving_header.png" alt="Cranksgiving riders in New Haven" /></p>
+
+<script>
+  (function () {
+    var teamRadios = Array.prototype.slice.call(document.querySelectorAll('input[name="team-selector"]'));
+    var teamSections = Array.prototype.slice.call(document.querySelectorAll("[data-team-section]"));
+
+    if (!teamRadios.length || !teamSections.length) {
+      return;
+    }
+
+    function showTeam(team) {
+      teamSections.forEach(function (section) {
+        var matches = section.getAttribute("data-team-section") === team;
+        if (matches) {
+          section.removeAttribute("hidden");
+          section.removeAttribute("aria-hidden");
+          section.setAttribute("data-active", "true");
+        } else {
+          section.setAttribute("hidden", "hidden");
+          section.setAttribute("aria-hidden", "true");
+          section.setAttribute("data-active", "false");
+        }
+      });
+    }
+
+    teamRadios.forEach(function (radio) {
+      radio.addEventListener("change", function () {
+        if (radio.checked) {
+          showTeam(radio.value);
+        }
+      });
+    });
+
+    var initialTeam = null;
+    for (var i = 0; i < teamRadios.length; i++) {
+      if (teamRadios[i].checked) {
+        initialTeam = teamRadios[i].value;
+        break;
+      }
+    }
+    if (!initialTeam && teamSections.length) {
+      initialTeam = teamSections[0].getAttribute("data-team-section");
+    }
+    if (initialTeam) {
+      showTeam(initialTeam);
+    }
+
+    console.log("Cranksgiving 2026 team selector ready");
+  })();
+</script>
