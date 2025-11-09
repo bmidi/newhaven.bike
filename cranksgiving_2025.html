@@ -1,0 +1,458 @@
+---
+layout: default
+title: Cranksgiving 2025
+---
+
+<style>
+  .team-selector {
+    margin: 2rem 0 1.5rem;
+  }
+
+  .team-selector p {
+    margin-bottom: 0.75rem;
+  }
+
+  .team-selector-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .team-selector-buttons input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .team-option {
+    flex: 1 1 calc(50% - 0.75rem);
+    min-width: 8rem;
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    border: 2px solid transparent;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .team-option:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .team-selector-buttons input[type="radio"]:focus+.team-option {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+
+  .team-selector-buttons input[type="radio"]:checked+.team-option {
+    border-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transform: translateY(-1px);
+  }
+
+  .team-option[data-team="red"] {
+    background: #fde8e8;
+    color: #9b1c1c;
+  }
+
+  .team-option[data-team="blue"] {
+    background: #e1effe;
+    color: #1c3d5a;
+  }
+
+  .team-option[data-team="green"] {
+    background: #def7ec;
+    color: #0f5132;
+  }
+
+  .team-option[data-team="gold"] {
+    background: #fdf6e3;
+    color: #92400e;
+  }
+
+  .team-checklist {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    border: 4px solid transparent;
+    border-radius: 1.5rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .team-checklist:not([data-active="true"]) {
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .team-checklist[data-team-section="red"][data-active="true"] {
+    border-color: #f8b4b4;
+    box-shadow: 0 10px 28px rgba(248, 180, 180, 0.3);
+  }
+
+  .team-checklist[data-team-section="blue"][data-active="true"] {
+    border-color: #9ec5ff;
+    box-shadow: 0 10px 28px rgba(158, 197, 255, 0.3);
+  }
+
+  .team-checklist[data-team-section="green"][data-active="true"] {
+    border-color: #8ed1b3;
+    box-shadow: 0 10px 28px rgba(142, 209, 179, 0.3);
+  }
+
+  .team-checklist[data-team-section="gold"][data-active="true"] {
+    border-color: #f3c78b;
+    box-shadow: 0 10px 28px rgba(243, 199, 139, 0.3);
+  }
+
+  .team-checklist h3 {
+    margin-top: 0;
+  }
+
+  .team-checklist ul {
+    padding-left: 1.2rem;
+  }
+
+  .team-checklist button {
+    margin-bottom: 1rem;
+  }
+
+  @media (min-width: 640px) {
+    .team-option {
+      flex: 0 0 auto;
+    }
+  }
+</style>
+<!-- Information -->
+<div>
+  <h1>Cranksgiving 2025</h1>
+  <p>
+    Join us for Cranksgiving — an annual food drive on two wheels!<br />
+    Where: <strong>New Haven Green</strong> <br />
+    When: <strong>Sun Nov 23rd, 11am</strong>
+  </p>
+
+  <p>
+    This cranksgiving will be a team-based bike ride/food-drive to pick up and donate non-perishables to local soup
+    kitchens!
+  </p>
+  <p>
+    We will meet at the New Haven Green at 11 am. Riders will be split up into teams, and then we will take various
+    routes
+    to local grocery stores to pick up food, and then drop it off at
+    <a href="https://deskct.org/">Downtown Evening Soup Kitchen</a> and
+    <a href="https://www.csknewhaven.org/">Community Soup Kitchen.</a>
+    This event is FREE, but you’ll need <strong>30-$40</strong>$ to purchase food.
+  </p>
+  <p>All you need is:</p>
+  <ul>
+    <li>A bike</li>
+    <li>A helmet</li>
+    <li>A lock</li>
+    <li>A way to carry food (a backpack, panniers, a bike trailer, etc.)</li>
+  </ul>
+  <p>
+    Please join the <a
+      href="https://signal.group/#CjQKIKYjbrY4Q5FfuQNZTDJzXlAFjsC0PNxeyzCZ6i70SMN4EhC8KlrR5ipepOG15loXPxLY">Signal group
+    </a>so you can get push notifications about the event, any important information will also
+    be
+    published to the website.
+    Joining the signal group will also give us a good idea for the turnout and it will help us out a lot with
+    organizing.
+  </p>
+  <p>
+    Cranksgiving is a national event that occurs in over 100 cities across the United States and Canada. Visit
+    <a href="https://cranksgiving.org/"> Cranksgiving</a> to learn more.
+    The ride
+    The easiest way to stick to the planned route is to group up and follow someone with a bike computer and/or phone
+    mount.
+  </p>
+  <p>
+    A link will be provided which can be opened on mobile devices/bike computers and a cue sheet will also be available.
+    </br>
+    Routes will be provided publicly before the event.
+  </p>
+
+  <h2 id="ride">The ride</h2>
+  <p>
+    Route link, cue sheets, and shopping stops will be published the evening before the ride. Each group will have one
+    leader with the route.
+  </p>
+
+</div>
+<!-- Team Shopping Lists -->
+<div>
+  <h2 id="donations">Food Shopping List</h2>
+  <div class="team-selector" role="radiogroup" aria-label="Choose your team checklist">
+    <p>Select your team color to show the matching checklist.</p>
+    <div class="team-selector-buttons">
+      <input type="radio" name="team-selector" id="team-select-red" value="red" aria-controls="team-red" checked />
+      <label class="team-option" for="team-select-red" data-team="red">Red Team</label>
+
+      <input type="radio" name="team-selector" id="team-select-blue" value="blue" aria-controls="team-blue" />
+      <label class="team-option" for="team-select-blue" data-team="blue">Blue Team</label>
+
+      <input type="radio" name="team-selector" id="team-select-green" value="green" aria-controls="team-green" />
+      <label class="team-option" for="team-select-green" data-team="green">Green Team</label>
+
+      <input type="radio" name="team-selector" id="team-select-gold" value="gold" aria-controls="team-gold" />
+      <label class="team-option" for="team-select-gold" data-team="gold">Gold Team</label>
+    </div>
+  </div>
+  <section class="team-checklist" id="team-red" data-team-section="red" data-active="true">
+    <h3>Red Team &mdash; </h3>
+    <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+    <h4>Fruits &amp; Vegetables</h4>
+    <ul>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+    </ul>
+  </section>
+
+  <section class="team-checklist" id="team-blue" data-team-section="blue" data-active="false">
+    <h3>Blue Team &mdash; </h3>
+    <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+    <h4>Ready-to-Serve Staples</h4>
+    <ul>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+    </ul>
+    <h4>Beverages &amp; Extras</h4>
+    <ul>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+    </ul>
+  </section>
+
+  <section class="team-checklist" id="team-green" data-team-section="green" data-active="false">
+    <h3>Green Team &mdash; </h3>
+    <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+    <h4>Whole Grains</h4>
+    <ul>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+    </ul>
+  </section>
+
+  <section class="team-checklist" id="team-gold" data-team-section="gold" data-active="false">
+    <h3>Gold Team &mdash; </h3>
+    <p><strong>Checklist tip:</strong> Check items off as you shop.</p>
+    <h4>Proteins</h4>
+    <ul>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+    </ul>
+    <h4>Flavor Boosters</h4>
+    <ul>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+      <li><label><input type="checkbox" /> TBD</label></li>
+    </ul>
+  </section>
+</div>
+
+<h3>Healthy Foods Donation List </h3>
+
+<h4> Fruits:</h4>
+
+<input type="checkbox"> Canned fruit (in 100% fruit juice or water)<br>
+<input type="checkbox"> Applesauce, unsweetened<br>
+<input type="checkbox"> Dried fruit (such as raisins & prunes<br>
+<input type="checkbox"> 100% fruit juice<br>
+
+<h4> Vegetables: </h4>
+
+<input type="checkbox"> Canned vegetables, no salt added (sodium 140mg or less)<br>
+<input type="checkbox"> Canned tomatoes, no salt added (Sodium 140mg or less)<br>
+<input type="checkbox"> Tomato sauce, no salt added (Sodium 480mg or less, Sugar 8g or less)<br>
+<input type="checkbox"> Spaghetti sauce, low sodium (Sodium 480mg or less, Sugar 8g or less)<br>
+<input type="checkbox"> Salsa (Sodium 140mg or less)<br>
+
+<h4> Combination Foods: </h4>
+
+<input type="checkbox"> Soups, stews or chili (Sodium 480mg or less)<br>
+<input type="checkbox"> Granola bars, chips<br>
+<input type="checkbox"> Broth or stock, unsalted, (Sodium 140mg or less)<br>
+
+<h4> Beverages: </h4>
+
+<input type="checkbox"> Tea bags<br>
+<input type="checkbox"> Coffee<br>
+<input type="checkbox"> Water, seltzer, unsweetened<br>
+
+<h4> Miscellaneous: </h4>
+
+<input type="checkbox"> Cat and cog food (canned, small bags of dry, or large bags with 1-gallon zip-lock
+bags)<br>
+
+<h4> Whole Grains: </h4>
+
+<input type="checkbox"> Brown rice, wild rice or quinoa<br>
+<input type="checkbox"> Whole grain or whole wheat pasta<br>
+<input type="checkbox"> Oatmeal or whole grain cream of wheat, unflavored<br>
+<input type="checkbox"> Whole grain crackers (Fiber 3g or more)<br>
+<input type="checkbox"> Whole wheat or corn tortillas, non-refrigerated (Fiber 3g or more)<br>
+<input type="checkbox"> Whole grain cereal (Sugar 6g or less, Fiber 3g or more)<br>
+<input type="checkbox"> Popcorn, kernels or microwave 94% fat free<br>
+
+<h4> Proteins: </h4>
+
+<input type="checkbox"> Canned beans, peas, lentils, no salt added or low sodium (Sodium 140mg or
+less)<br>
+<input type="checkbox"> Shelf stable boxed tofu<br>
+<input type="checkbox"> Dried beans, peas, lentils<br>
+<input type="checkbox"> Canned tuna, salmon, chicken or sardines in water, low sodium<br>
+<input type="checkbox"> Peanut butter<br>
+<input type="checkbox"> Nuts or seeds, unsalted<br>
+
+<h4> Condiments & Oils: </h4>
+
+<input type="checkbox"> Lite salad dressings<br>
+<input type="checkbox"> Vinegar<br>
+<input type="checkbox"> Vegetable, olive, or canola oil<br>
+<input type="checkbox"> Dried herbs and spices (oregano, basil, cumin, chili powder, paprika)<br>
+<input type="checkbox"> 100% fruit spread<br>
+<input type="checkbox"> Garlic (granulated, powdered, or mixed)<br>
+
+
+<p><img src="cranksgiving_header.png" alt="Cranksgiving riders in New Haven" /></p>
+
+<script>
+  (function () {
+    var teamRadios = Array.prototype.slice.call(document.querySelectorAll('input[name="team-selector"]'));
+    var teamSections = Array.prototype.slice.call(document.querySelectorAll("[data-team-section]"));
+    var checklistInputs = Array.prototype.slice.call(document.querySelectorAll(".team-checklist input[type=\"checkbox\"]"));
+    var CHECKLIST_STORAGE_KEY = "cranksgiving_2026_checklist";
+
+    if (!teamRadios.length || !teamSections.length) {
+      return;
+    }
+
+    function showTeam(team) {
+      teamSections.forEach(function (section) {
+        var matches = section.getAttribute("data-team-section") === team;
+        if (matches) {
+          section.removeAttribute("hidden");
+          section.removeAttribute("aria-hidden");
+          section.setAttribute("data-active", "true");
+        } else {
+          section.setAttribute("hidden", "hidden");
+          section.setAttribute("aria-hidden", "true");
+          section.setAttribute("data-active", "false");
+        }
+      });
+    }
+
+    teamRadios.forEach(function (radio) {
+      radio.addEventListener("change", function () {
+        if (radio.checked) {
+          showTeam(radio.value);
+        }
+      });
+    });
+
+    var initialTeam = null;
+    for (var i = 0; i < teamRadios.length; i++) {
+      if (teamRadios[i].checked) {
+        initialTeam = teamRadios[i].value;
+        break;
+      }
+    }
+    if (!initialTeam && teamSections.length) {
+      initialTeam = teamSections[0].getAttribute("data-team-section");
+    }
+    if (initialTeam) {
+      showTeam(initialTeam);
+    }
+
+    var cookieStorage = {
+      get: function () {
+        var name = CHECKLIST_STORAGE_KEY + "=";
+        var decoded = decodeURIComponent(document.cookie || "");
+        var parts = decoded.split(";");
+        for (var i = 0; i < parts.length; i++) {
+          var cookie = parts[i].trim();
+          if (cookie.indexOf(name) === 0) {
+            return cookie.substring(name.length);
+          }
+        }
+        return null;
+      },
+      set: function (value) {
+        var expiresInDays = 365;
+        document.cookie = CHECKLIST_STORAGE_KEY + "=" + encodeURIComponent(value) + "; max-age=" + (expiresInDays * 24 * 60 * 60) + "; path=/";
+      }
+    };
+
+    function loadChecklistState() {
+      var stored = cookieStorage.get();
+      if (!stored) {
+        return {};
+      }
+
+      try {
+        return JSON.parse(stored) || {};
+      } catch (err) {
+        return {};
+      }
+    }
+
+    function persistChecklistState(state) {
+      var compactState = {};
+      Object.keys(state).forEach(function (key) {
+        if (state[key]) {
+          compactState[key] = true;
+        }
+      });
+      cookieStorage.set(JSON.stringify(compactState));
+    }
+
+    function getItemKey(input) {
+      var section = input.closest("[data-team-section]");
+      var sectionId = section ? section.id : "team";
+      var label = input.closest("label");
+      var labelText = label ? label.textContent.trim().replace(/\s+/g, " ") : "item";
+      return sectionId + "::" + labelText;
+    }
+
+    var checklistState = loadChecklistState();
+
+    checklistInputs.forEach(function (checkbox) {
+      var key = getItemKey(checkbox);
+      if (!key) {
+        return;
+      }
+
+      if (checklistState[key]) {
+        checkbox.checked = true;
+      }
+
+      checkbox.addEventListener("change", function () {
+        if (checkbox.checked) {
+          checklistState[key] = true;
+        } else {
+          delete checklistState[key];
+        }
+        persistChecklistState(checklistState);
+      });
+    });
+
+    console.log("Cranksgiving 2026 team selector ready");
+  })();
+</script>
