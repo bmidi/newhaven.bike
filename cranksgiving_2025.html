@@ -338,7 +338,7 @@ less)<br>
     var teamRadios = Array.prototype.slice.call(document.querySelectorAll('input[name="team-selector"]'));
     var teamSections = Array.prototype.slice.call(document.querySelectorAll("[data-team-section]"));
     var checklistInputs = Array.prototype.slice.call(document.querySelectorAll(".team-checklist input[type=\"checkbox\"]"));
-    var CHECKLIST_STORAGE_KEY = "cranksgiving_2026_checklist";
+    var CHECKLIST_STORAGE_KEY = "cranksgiving_2025_checklist";
 
     if (!teamRadios.length || !teamSections.length) {
       return;
@@ -381,27 +381,51 @@ less)<br>
       showTeam(initialTeam);
     }
 
-    var cookieStorage = {
-      get: function () {
-        var name = CHECKLIST_STORAGE_KEY + "=";
-        var decoded = decodeURIComponent(document.cookie || "");
-        var parts = decoded.split(";");
-        for (var i = 0; i < parts.length; i++) {
-          var cookie = parts[i].trim();
-          if (cookie.indexOf(name) === 0) {
-            return cookie.substring(name.length);
-          }
-        }
-        return null;
-      },
-      set: function (value) {
-        var expiresInDays = 365;
-        document.cookie = CHECKLIST_STORAGE_KEY + "=" + encodeURIComponent(value) + "; max-age=" + (expiresInDays * 24 * 60 * 60) + "; path=/";
+    function supportsLocalStorage() {
+      try {
+        var testKey = "__cranksgiving_test__";
+        window.localStorage.setItem(testKey, testKey);
+        window.localStorage.removeItem(testKey);
+        return true;
+      } catch (err) {
+        return false;
       }
-    };
+    }
+
+    var storage = (function () {
+      if (supportsLocalStorage()) {
+        return {
+          get: function () {
+            return window.localStorage.getItem(CHECKLIST_STORAGE_KEY);
+          },
+          set: function (value) {
+            window.localStorage.setItem(CHECKLIST_STORAGE_KEY, value);
+          }
+        };
+      }
+
+      return {
+        get: function () {
+          var name = CHECKLIST_STORAGE_KEY + "=";
+          var decoded = decodeURIComponent(document.cookie || "");
+          var parts = decoded.split(";");
+          for (var i = 0; i < parts.length; i++) {
+            var cookie = parts[i].trim();
+            if (cookie.indexOf(name) === 0) {
+              return cookie.substring(name.length);
+            }
+          }
+          return null;
+        },
+        set: function (value) {
+          var expiresInDays = 365;
+          document.cookie = CHECKLIST_STORAGE_KEY + "=" + encodeURIComponent(value) + "; max-age=" + (expiresInDays * 24 * 60 * 60) + "; path=/";
+        }
+      };
+    })();
 
     function loadChecklistState() {
-      var stored = cookieStorage.get();
+      var stored = storage.get();
       if (!stored) {
         return {};
       }
@@ -420,7 +444,7 @@ less)<br>
           compactState[key] = true;
         }
       });
-      cookieStorage.set(JSON.stringify(compactState));
+      storage.set(JSON.stringify(compactState));
     }
 
     function getItemKey(input) {
@@ -428,7 +452,10 @@ less)<br>
       var sectionId = section ? section.id : "team";
       var label = input.closest("label");
       var labelText = label ? label.textContent.trim().replace(/\s+/g, " ") : "item";
-      return sectionId + "::" + labelText;
+      var sectionInputs = section ? Array.prototype.slice.call(section.querySelectorAll('input[type="checkbox"]')) : [];
+      var sectionIndex = sectionInputs.indexOf(input);
+      var indexToken = sectionIndex > -1 ? sectionIndex : Math.random().toString(36).slice(2, 7);
+      return sectionId + "::" + labelText + "::" + indexToken;
     }
 
     var checklistState = loadChecklistState();
@@ -453,6 +480,6 @@ less)<br>
       });
     });
 
-    console.log("Cranksgiving 2026 team selector ready");
+    console.log("Cranksgiving 2025 team selector ready");
   })();
 </script>
