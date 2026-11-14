@@ -1,4 +1,4 @@
-# Cranksgiving 2023
+# Cranksgiving Template
 
 Cranksgiving is a food drive for charity on two wheels. Part bike ride, part scavenger hunt. All you need is a bicycle, a lock and a bag!
 
